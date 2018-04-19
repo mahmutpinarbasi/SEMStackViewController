@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "SEMStackViewController.h"
+#import "LocationViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,13 +17,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)showStack:(id)sender {
+
+    LocationViewController * location = [[LocationViewController alloc] initWithNibName:@"LocationViewController" bundle:nil];
+    SEMStackViewController * stackViewController = [[SEMStackViewController alloc] initWithRootViewController:location];
+    [self sem_showStackViewController:stackViewController];
+
+    
 }
 
 
