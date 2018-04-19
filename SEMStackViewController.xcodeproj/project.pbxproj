@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7520602620889943006F499A /* UIViewController+SEMStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520602520889943006F499A /* UIViewController+SEMStackViewController.m */; };
-		7520602D20889A68006F499A /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520602B20889A68006F499A /* LocationViewController.m */; };
-		7520602E20889A68006F499A /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7520602C20889A68006F499A /* LocationViewController.xib */; };
-		752060312088A700006F499A /* SEMStackContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 752060302088A700006F499A /* SEMStackContentView.m */; };
-		752060352088ACA2006F499A /* LocationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752060332088ACA2006F499A /* LocationDetailViewController.m */; };
-		752060362088ACA2006F499A /* LocationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 752060342088ACA2006F499A /* LocationDetailViewController.xib */; };
-		7546F510208888D50083D2CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7546F50F208888D50083D2CD /* AppDelegate.m */; };
-		7546F513208888D50083D2CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7546F512208888D50083D2CD /* ViewController.m */; };
-		7546F516208888D50083D2CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7546F514208888D50083D2CD /* Main.storyboard */; };
-		7546F518208888D50083D2CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7546F517208888D50083D2CD /* Assets.xcassets */; };
-		7546F51B208888D50083D2CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7546F519208888D50083D2CD /* LaunchScreen.storyboard */; };
-		7546F51E208888D50083D2CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7546F51D208888D50083D2CD /* main.m */; };
-		7546F53B208889330083D2CD /* SEMStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7546F53A208889330083D2CD /* SEMStackViewController.m */; };
+		75079D702088D6D600006DB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75079D592088D6D600006DB2 /* AppDelegate.m */; };
+		75079D712088D6D600006DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75079D5A2088D6D600006DB2 /* Assets.xcassets */; };
+		75079D722088D6D600006DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75079D5B2088D6D600006DB2 /* LaunchScreen.storyboard */; };
+		75079D732088D6D600006DB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75079D5D2088D6D600006DB2 /* Main.storyboard */; };
+		75079D752088D6D600006DB2 /* LocationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75079D612088D6D600006DB2 /* LocationDetailViewController.m */; };
+		75079D762088D6D600006DB2 /* LocationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75079D622088D6D600006DB2 /* LocationDetailViewController.xib */; };
+		75079D772088D6D600006DB2 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75079D642088D6D600006DB2 /* LocationViewController.m */; };
+		75079D782088D6D600006DB2 /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75079D652088D6D600006DB2 /* LocationViewController.xib */; };
+		75079D792088D6D600006DB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75079D662088D6D600006DB2 /* main.m */; };
+		75079D7A2088D6D600006DB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75079D682088D6D600006DB2 /* ViewController.m */; };
+		75079D7B2088D6D600006DB2 /* SEMStackContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75079D6B2088D6D600006DB2 /* SEMStackContentView.m */; };
+		75079D7C2088D6D600006DB2 /* SEMStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75079D6D2088D6D600006DB2 /* SEMStackViewController.m */; };
+		75079D7D2088D6D600006DB2 /* UIViewController+SEMStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75079D6F2088D6D600006DB2 /* UIViewController+SEMStackViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,30 +33,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7520602420889943006F499A /* UIViewController+SEMStackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SEMStackViewController.h"; sourceTree = "<group>"; };
-		7520602520889943006F499A /* UIViewController+SEMStackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SEMStackViewController.m"; sourceTree = "<group>"; };
-		7520602A20889A68006F499A /* LocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
-		7520602B20889A68006F499A /* LocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
-		7520602C20889A68006F499A /* LocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
-		7520602F2088A700006F499A /* SEMStackContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEMStackContentView.h; sourceTree = "<group>"; };
-		752060302088A700006F499A /* SEMStackContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMStackContentView.m; sourceTree = "<group>"; };
-		752060322088ACA2006F499A /* LocationDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationDetailViewController.h; sourceTree = "<group>"; };
-		752060332088ACA2006F499A /* LocationDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationDetailViewController.m; sourceTree = "<group>"; };
-		752060342088ACA2006F499A /* LocationDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationDetailViewController.xib; sourceTree = "<group>"; };
+		75079D582088D6D600006DB2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75079D592088D6D600006DB2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75079D5A2088D6D600006DB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75079D5C2088D6D600006DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75079D5E2088D6D600006DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75079D5F2088D6D600006DB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75079D602088D6D600006DB2 /* LocationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetailViewController.h; sourceTree = "<group>"; };
+		75079D612088D6D600006DB2 /* LocationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetailViewController.m; sourceTree = "<group>"; };
+		75079D622088D6D600006DB2 /* LocationDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationDetailViewController.xib; sourceTree = "<group>"; };
+		75079D632088D6D600006DB2 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		75079D642088D6D600006DB2 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		75079D652088D6D600006DB2 /* LocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
+		75079D662088D6D600006DB2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75079D672088D6D600006DB2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75079D682088D6D600006DB2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75079D6A2088D6D600006DB2 /* SEMStackContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEMStackContentView.h; sourceTree = "<group>"; };
+		75079D6B2088D6D600006DB2 /* SEMStackContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEMStackContentView.m; sourceTree = "<group>"; };
+		75079D6C2088D6D600006DB2 /* SEMStackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEMStackViewController.h; sourceTree = "<group>"; };
+		75079D6D2088D6D600006DB2 /* SEMStackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEMStackViewController.m; sourceTree = "<group>"; };
+		75079D6E2088D6D600006DB2 /* UIViewController+SEMStackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SEMStackViewController.h"; sourceTree = "<group>"; };
+		75079D6F2088D6D600006DB2 /* UIViewController+SEMStackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SEMStackViewController.m"; sourceTree = "<group>"; };
 		7546F50B208888D50083D2CD /* SEMStackViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEMStackViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7546F50E208888D50083D2CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7546F50F208888D50083D2CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7546F511208888D50083D2CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7546F512208888D50083D2CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7546F515208888D50083D2CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7546F517208888D50083D2CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7546F51A208888D50083D2CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7546F51C208888D50083D2CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7546F51D208888D50083D2CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7546F523208888D50083D2CD /* SEMStackViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SEMStackViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7546F529208888D50083D2CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7546F539208889330083D2CD /* SEMStackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEMStackViewController.h; sourceTree = "<group>"; };
-		7546F53A208889330083D2CD /* SEMStackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMStackViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +77,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75079D572088D6D600006DB2 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				75079D582088D6D600006DB2 /* AppDelegate.h */,
+				75079D592088D6D600006DB2 /* AppDelegate.m */,
+				75079D5A2088D6D600006DB2 /* Assets.xcassets */,
+				75079D5B2088D6D600006DB2 /* LaunchScreen.storyboard */,
+				75079D5D2088D6D600006DB2 /* Main.storyboard */,
+				75079D5F2088D6D600006DB2 /* Info.plist */,
+				75079D602088D6D600006DB2 /* LocationDetailViewController.h */,
+				75079D612088D6D600006DB2 /* LocationDetailViewController.m */,
+				75079D622088D6D600006DB2 /* LocationDetailViewController.xib */,
+				75079D632088D6D600006DB2 /* LocationViewController.h */,
+				75079D642088D6D600006DB2 /* LocationViewController.m */,
+				75079D652088D6D600006DB2 /* LocationViewController.xib */,
+				75079D662088D6D600006DB2 /* main.m */,
+				75079D672088D6D600006DB2 /* ViewController.h */,
+				75079D682088D6D600006DB2 /* ViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		75079D692088D6D600006DB2 /* SEMStackViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75079D6A2088D6D600006DB2 /* SEMStackContentView.h */,
+				75079D6B2088D6D600006DB2 /* SEMStackContentView.m */,
+				75079D6C2088D6D600006DB2 /* SEMStackViewController.h */,
+				75079D6D2088D6D600006DB2 /* SEMStackViewController.m */,
+				75079D6E2088D6D600006DB2 /* UIViewController+SEMStackViewController.h */,
+				75079D6F2088D6D600006DB2 /* UIViewController+SEMStackViewController.m */,
+			);
+			path = SEMStackViewController;
+			sourceTree = "<group>";
+		};
 		7546F502208888D50083D2CD = {
 			isa = PBXGroup;
 			children = (
-				7546F50D208888D50083D2CD /* SEMStackViewController */,
+				75079D572088D6D600006DB2 /* Demo */,
+				75079D692088D6D600006DB2 /* SEMStackViewController */,
 				7546F526208888D50083D2CD /* SEMStackViewControllerTests */,
 				7546F50C208888D50083D2CD /* Products */,
 			);
@@ -95,48 +131,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7546F50D208888D50083D2CD /* SEMStackViewController */ = {
-			isa = PBXGroup;
-			children = (
-				7546F532208888FF0083D2CD /* SEM */,
-				7546F50E208888D50083D2CD /* AppDelegate.h */,
-				7546F50F208888D50083D2CD /* AppDelegate.m */,
-				7546F511208888D50083D2CD /* ViewController.h */,
-				7546F512208888D50083D2CD /* ViewController.m */,
-				7546F514208888D50083D2CD /* Main.storyboard */,
-				7546F517208888D50083D2CD /* Assets.xcassets */,
-				7546F519208888D50083D2CD /* LaunchScreen.storyboard */,
-				7546F51C208888D50083D2CD /* Info.plist */,
-				7546F51D208888D50083D2CD /* main.m */,
-				7520602A20889A68006F499A /* LocationViewController.h */,
-				7520602B20889A68006F499A /* LocationViewController.m */,
-				7520602C20889A68006F499A /* LocationViewController.xib */,
-				752060322088ACA2006F499A /* LocationDetailViewController.h */,
-				752060332088ACA2006F499A /* LocationDetailViewController.m */,
-				752060342088ACA2006F499A /* LocationDetailViewController.xib */,
-			);
-			path = SEMStackViewController;
-			sourceTree = "<group>";
-		};
 		7546F526208888D50083D2CD /* SEMStackViewControllerTests */ = {
 			isa = PBXGroup;
 			children = (
 				7546F529208888D50083D2CD /* Info.plist */,
 			);
 			path = SEMStackViewControllerTests;
-			sourceTree = "<group>";
-		};
-		7546F532208888FF0083D2CD /* SEM */ = {
-			isa = PBXGroup;
-			children = (
-				7546F539208889330083D2CD /* SEMStackViewController.h */,
-				7546F53A208889330083D2CD /* SEMStackViewController.m */,
-				7520602420889943006F499A /* UIViewController+SEMStackViewController.h */,
-				7520602520889943006F499A /* UIViewController+SEMStackViewController.m */,
-				7520602F2088A700006F499A /* SEMStackContentView.h */,
-				752060302088A700006F499A /* SEMStackContentView.m */,
-			);
-			path = SEM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,11 +221,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7546F51B208888D50083D2CD /* LaunchScreen.storyboard in Resources */,
-				7546F518208888D50083D2CD /* Assets.xcassets in Resources */,
-				752060362088ACA2006F499A /* LocationDetailViewController.xib in Resources */,
-				7546F516208888D50083D2CD /* Main.storyboard in Resources */,
-				7520602E20889A68006F499A /* LocationViewController.xib in Resources */,
+				75079D782088D6D600006DB2 /* LocationViewController.xib in Resources */,
+				75079D732088D6D600006DB2 /* Main.storyboard in Resources */,
+				75079D762088D6D600006DB2 /* LocationDetailViewController.xib in Resources */,
+				75079D712088D6D600006DB2 /* Assets.xcassets in Resources */,
+				75079D722088D6D600006DB2 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,14 +243,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7546F513208888D50083D2CD /* ViewController.m in Sources */,
-				7520602D20889A68006F499A /* LocationViewController.m in Sources */,
-				7520602620889943006F499A /* UIViewController+SEMStackViewController.m in Sources */,
-				7546F53B208889330083D2CD /* SEMStackViewController.m in Sources */,
-				752060352088ACA2006F499A /* LocationDetailViewController.m in Sources */,
-				7546F51E208888D50083D2CD /* main.m in Sources */,
-				7546F510208888D50083D2CD /* AppDelegate.m in Sources */,
-				752060312088A700006F499A /* SEMStackContentView.m in Sources */,
+				75079D752088D6D600006DB2 /* LocationDetailViewController.m in Sources */,
+				75079D772088D6D600006DB2 /* LocationViewController.m in Sources */,
+				75079D7C2088D6D600006DB2 /* SEMStackViewController.m in Sources */,
+				75079D792088D6D600006DB2 /* main.m in Sources */,
+				75079D702088D6D600006DB2 /* AppDelegate.m in Sources */,
+				75079D7A2088D6D600006DB2 /* ViewController.m in Sources */,
+				75079D7D2088D6D600006DB2 /* UIViewController+SEMStackViewController.m in Sources */,
+				75079D7B2088D6D600006DB2 /* SEMStackContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,20 +272,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7546F514208888D50083D2CD /* Main.storyboard */ = {
+		75079D5B2088D6D600006DB2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7546F515208888D50083D2CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7546F519208888D50083D2CD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7546F51A208888D50083D2CD /* Base */,
+				75079D5C2088D6D600006DB2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		75079D5D2088D6D600006DB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75079D5E2088D6D600006DB2 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -401,7 +401,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8636MVV979;
-				INFOPLIST_FILE = SEMStackViewController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mp.SEMStackViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,7 +415,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8636MVV979;
-				INFOPLIST_FILE = SEMStackViewController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mp.SEMStackViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
