@@ -27,6 +27,7 @@
 
     LocationViewController * location = [[LocationViewController alloc] initWithNibName:@"LocationViewController" bundle:nil];
     SEMStackViewController * stackViewController = [[SEMStackViewController alloc] initWithRootViewController:location];
+    stackViewController.closeButtonImage = [UIImage imageNamed:@"close_stack_view_icon"];
     [self sem_showStackViewController:stackViewController];
 
     

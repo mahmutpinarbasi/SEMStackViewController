@@ -21,6 +21,6 @@
 
 @property (nonatomic, assign) CGFloat itemWidth; /// Item width for each UIViewController. Default value is [UIScreen mainScreen].bounds.size.width/3;
 @property (nonatomic, assign) BOOL closeButtonHidden; /// `SEMStackViewController` has a UIButton on right top corner to pop last view controller. This property changes the visibility of this button. Default value is NO
-
+@property (nonatomic, strong) UIImage * _Nullable closeButtonImage; /// The UIImage for close button.
 
 @end

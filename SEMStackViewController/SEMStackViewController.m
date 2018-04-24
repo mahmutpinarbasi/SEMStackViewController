@@ -61,6 +61,14 @@
 }
 
 
+#pragma mark - Public Properties
+- (void)setCloseButtonImage:(UIImage *)closeButtonImage{
+    _closeButtonImage = closeButtonImage;
+    if (_closeButtonImage) {
+        [self.btnClose setImage:_closeButtonImage forState:UIControlStateNormal];
+    }
+}
+
 #pragma mark - Private
 - (void)updateViewFrame:(CGRect)newFrame animated:(BOOL)animated completion:(void(^)(void))completion{
     
@@ -79,10 +87,12 @@
 #pragma mark - Private Properties
 - (UIButton *)btnClose{
     if (_btnClose==nil) {
-        _btnClose = [[UIButton alloc] initWithFrame:CGRectMake(CGRectGetWidth(self.view.bounds)-20.0-44.0, 20, 44.0, 44.0)];
+        _btnClose = [[UIButton alloc] initWithFrame:CGRectMake(CGRectGetWidth(self.view.bounds)-20.0-20.0, 20, 20.0, 20.0)];
         _btnClose.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin;
         [_btnClose addTarget:self action:@selector(closeAction:) forControlEvents:UIControlEventTouchUpInside];
-        _btnClose.backgroundColor = [UIColor yellowColor];
+        _btnClose.backgroundColor = [UIColor clearColor];
+        _btnClose.imageView.contentMode = UIViewContentModeScaleAspectFit;
+        _btnClose.contentMode = UIViewContentModeScaleAspectFit;
     }
     return _btnClose;
 }
